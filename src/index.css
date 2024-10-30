@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.heading{
+    color: rgb(41, 179, 238);
+    font-size: 50px;
+    font-weight: 600;
+   margin-bottom: 15px;
+   text-transform: capitalize;
+}
+
+.input{
+    box-shadow: 0 1px 5px rgb(41, 179, 238);
+    font-weight: 700;
+    font-size: 40px;
+    outline: yellow;
+    text-transform: capitalize;
+}
+
+
+.btn{
+    background-color:rgb(244, 236, 24); ;
+}
+.btn:hover{
+    background-color: rgb(41, 179, 238);
+    box-shadow: 0 2px 5px black;
+}
+
+.card{
+   display: flex;
+   justify-content: center;
+   margin-top: 40px;
+}
+
+.city{
+    text-transform: capitalize;
+    font-size: 30px;
+    font-weight:600;
+    color: rgb(41, 179, 238);
+}
+
+.error{
+    margin-top: 15px;
+    font-size: 5xl;
+    color: gray;
+}
